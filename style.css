@@ -129,6 +129,61 @@ img {
     background-color: #438BCA;
     color: white;
   }
+}
 
+@media screen and (max-width: 1079px) {
 
+  .container {
+    background-color: #597293;
+  }
+
+  #lezioni {
+    background-color: #597293;
+    color: white;
+  }
+
+  #lezioni .row .left {
+    background-color: #597293;
+    width: 50%;
+    font-size: 25px;
+  }
+
+  #lezioni .row .right{
+    background-color: #597293;
+    width: 50%;
+    font-size: 25px;
+  }
+
+   h1 {
+   font-size: 50px;
+ }
+
+  #steps .row {
+    content: '';
+    display: table;
+    clear: both;
+    font-size: 25px;
+    background-color: #324D5B;
+    color: #F6C37A;
+  }
+
+  #steps .row .left {
+    float: left;
+    width: 100%;
+  }
+
+  #steps .row .central {
+    float: left;
+    width: 100%;
+  }
+
+  #steps .row .right {
+    float: right;
+    width: 100%;
+  }
+
+  #why .row {
+    font-size: 25px;
+    color: #428BCA;
+  }
 }
